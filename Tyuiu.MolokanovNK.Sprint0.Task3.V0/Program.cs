@@ -1,16 +1,19 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tyuiu.MolokanovNK.Sprint0.Task0.V0
+using Tyuiu.MolokanovNK.Sprint0.Task3.V0.Lib;
+
+namespace Tyuiu.MolokanovNK.Sprint0.Task3.V0
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(DataService.Sum(7, 7));
+            Console.ReadKey();
         }
     }
 }
